@@ -1,0 +1,1 @@
+# Para melhorar a lógica de programação é necessário fazer perguntas. Para fazer perguntas é necessário entender o problema.
