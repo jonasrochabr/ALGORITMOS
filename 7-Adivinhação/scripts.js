@@ -33,7 +33,7 @@ function xAteemptsZero() {
 
 if (xAttempts == 1) {
   xAteemptsZero()
-  alert(`Parabéns! O número que pensei foi o ${randomNumber} e vc acertou em ${xAttempts}3 tentativa`)
+  alert(`Parabéns! O número que pensei foi o ${randomNumber} e vc acertou em ${xAttempts} tentativa`)
 } else {
   alert(`Parabéns! O número que pensei foi o ${randomNumber} e vc acertou em ${xAttempts} tentativas`)
   xAteemptsZero()
