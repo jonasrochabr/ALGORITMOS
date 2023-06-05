@@ -27,24 +27,42 @@ while(option != 3) {
     let option = Number(prompt(`  
     
     Olá usuário! Digite o número da opção desejada
-    
+
     1. Cadastrar um item na lista
     2. Mostrar itens cadastrados
-    3. Sair do programa`))
-    
-    
-    if(option == 1) {
-        let item = prompt("Qual o nome do item?")
-        items.push()
-    } else if (option == 2) {
-    
-        if(items.length == 0) {
-            alert("Não existem items cadastrados!")
-        } else {
-            alert(items)
+    3. Sair do programa
+    `))
+
+
+    switch(option) {
+            case 1:
+                let item = prompt("Qual o nome do item?")
+                items.push(item)
+                break;
+            case 2:
+                if(items.length == 0) {
+                    alert("Não existem items cadastrados!")
+                } else {
+                    alert(items)
+                }
+                break;
+            case 3:
+                alert("See you")
+                break
+            default:
+                alert("Opção inválida! Tente 1,2 ou 3")
         }
-    } else {
-        alert("See you")
+
     }
 
-}
+
+    
+    
+ 
+
+    
+
+        
+
+
+
